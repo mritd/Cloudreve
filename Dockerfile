@@ -42,9 +42,7 @@ RUN task clean-backend build-backend "PLATFORM=docker"
 # the final builder
 FROM alpine:latest
 
-WORKDIR /cloudreve
-
-COPY --from=backend_builder /cloudreve/release/cloudreve-docker ./cloudreve
+COPY --from=backend_builder /cloudreve/release/cloudreve-docker /usr/local/bin/cloudreve
 
 # !!! For i18n users, do not set timezone
 RUN set -e \
@@ -52,8 +50,10 @@ RUN set -e \
     && apk add bash ca-certificates tzdata \
     && rm -f /var/cache/apk/*
 
+WORKDIR /data
+
 EXPOSE 5212
 
-VOLUME ["/cloudreve/uploads", "/cloudreve/avatar", "/data"]
+VOLUME ["/data"]
 
-ENTRYPOINT ["./cloudreve"]
+CMD ["cloudreve"]
