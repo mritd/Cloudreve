@@ -50,7 +50,7 @@
 * :card_file_box: Drag & Drop to manage your files.
 * :family_woman_girl_boy:   Multi-users with multi-groups.
 * :link: Create share links for files and folders with expiration date.
-* :eye_speech_bubble: Preview videos, images, audios, texts, Office documents, ePub files online.
+* :eye_speech_bubble: Preview videos, images, audios, ePub files online; edit texts, Office documents online.
 * :art: Customize theme colors, dark mode, PWA application, SPA, i18n.
 * :rocket: All-In-One packing, with all features out-of-the-box.
 * 🌈 ... ...

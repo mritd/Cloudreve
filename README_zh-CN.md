@@ -50,7 +50,7 @@
 * :card_file_box: 文件拖拽管理
 * :family_woman_girl_boy:   多用户、用户组、多存储策略
 * :link: 创建文件、目录的分享链接，可设定自动过期
-* :eye_speech_bubble: 视频、图像、音频、文本、Office 文档、 ePub 在线预览
+* :eye_speech_bubble: 视频、图像、音频、 ePub 在线预览，文本、Office 文档在线编辑
 * :art: 自定义配色、黑暗模式、PWA 应用、全站单页应用、国际化支持
 * :rocket: All-In-One 打包，开箱即用
 * 🌈 ... ...
